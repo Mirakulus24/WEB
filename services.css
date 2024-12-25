@@ -1,0 +1,104 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 1rem 0 0;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+}
+
+.nav-bar li {
+    margin: 0 1rem;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-bar a:hover {
+    color: #617cf1;
+}S
+
+main {
+    padding: 2rem;
+}
+
+#services {
+    text-align: center;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.service-item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.service-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.service-item h3 {
+    color: #0078d7;
+    margin: 1rem 0 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #005bb5;
+    color: white;
+    margin-top: 2rem;
+}
+.service-item:nth-child(1) {
+    animation-delay: 0.2s;
+}
+.service-item:nth-child(2) {
+    animation-delay: 0.4s;
+}
+.service-item:nth-child(3) {
+    animation-delay: 0.6s;
+}
+.animate__animated {
+    animation-duration: 1.2s;
+}
+.logo {
+    width: 100px; /* Adjust size of the logo */
+    height: auto;
+    margin-bottom: 20px;
+}
